@@ -1,28 +1,113 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
 
-    <title>Lymphatic system</title>
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    <meta content="https://avatars0.githubusercontent.com/u/19587382?v=3&amp;s=400" property="og:image" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta content="Lymphatic system" property="og:title" />
-    <meta content="Lymphatic system" property="og:description" />
+}
+.bgimg-1 {
+  background-image: url("./images/background.png");
+  min-height: 100%;
+}
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <link href="main.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  </head>
+.bgimg-2 {
+  background-image: url("./images/background.png");
+  min-height: 400px;
+}
 
-  <body>
-    
-    
-    
-    <div class="credits text-effect box">
-      Content by Sarah Kenrick. Website by <a href="https://github.com/KDiaCoding">Samuel Kenrick</a>
-    </div>
-  </body>
+.bgimg-3 {
+  background-image: url("./images/background.png");
+  min-height: 400px;
+}
 
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">SCROLL DOWN</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">The Lymphatic System</h3>
+  <p>Lymphatic vessels and ducts make up the intricate transportation system of the lymphatic system. These vessels move a fluid named lymph away from the bodies tissues and the capillaries to be filtered by nodes and organs, before being brought back into the bloodstream. The lymph nodes and lymphatic organs make up the lymphatic system. The lymphatic organs, which includes the thymus and spleen, diffuses a fluid containing lymphocytes and other defence cells that are made by the bone marrow. The lymph nodes are scattered across the vessel network and they filter the lymph. Node lymphocytes can go into the lymph vessels to eliminate any pathogens. Lymph comes from interstitial fluid that encompasses the cells of body tissues. This interstitial fluid originates from the bloodstream, as capillaries swap nutrients with the tissue cells and the liquid leaves the capillaries. Much of the liquid goes back into the capillaries immediately. The rest of the fluid goes into the lymphatic capillaries and vessels as lymph. Lymph is clear and colourless and has white blood cells. The white blood cells can destroy pathogens and take away some of the undesirable materials from the interstitial fluid as it moves toward the lymphatic tissues and the lymph nodes. It is in the lymphatic tissues and the lymph nodes that concentrations of white blood cells named lymphocytes are added to the lymph. Lymphocytes fights bacteria and other pathogens before the lymph returns to the bloodstream. Materials are swapped between the bloodstream and the body cells through the interstitial fluid. The lymph nodes are bean-shaped structures that aid in the filtering of undesirable substances from the lymph. Groups of lymph nodes are where the head and limbs join with the torso—by the armpits, groin, and neck—and in the abdominal region. When an infection enters the body, the lymph nodes swell up and these swelled up lymph nodes can at times be felt in these areas. The lymphatic capillaries move the fluid into the bigger lymphatic vessels, which transport the fluid towards the lymph nodes and lymphoid organs. The nodes and organs filter the lymph and eliminate all the harmful materials. The filtered lymph then is transported towards the major lymphatic ducts— the thoracic duct and right lymphatic duct, which can be found at the intersection between the subclavian and internal jugular veins. These ducts empty the filtered lymph into the veins to return to the bloodstream. (Visiblebody.com, 2018) </p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">COOL!</span>
+  </div>
+</div>
+
+</body>
 </html>
