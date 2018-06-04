@@ -1,2 +1,1 @@
-Edited by https://KDiaCoding.github.io
-Credits: https://alexflipnote.github.io/homepage
+Content by Sarah Kenrick. Website by Samuel Kenrick the younger brother of Sarah Kenrick
